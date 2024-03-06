@@ -38,7 +38,7 @@ class MyWindow(QtWidgets.QMainWindow):
         self.maxFsr = float('-inf')
         self.data_line_flex = self.GraphWidget1.plot(pen='r',name='Flex')
         self.data_line_fsr = self.GraphWidget2.plot(pen='g',name='FSR')
-        self.data_line_stats = self.GraphWidget3.plot(pen='b',name='Stats')
+        self.data_line_stats = self.GraphWidget3.plot(pen='y',name='Stats')
 
         layout1=QVBoxLayout()
         layout1.addWidget(self.GraphWidget1)
@@ -93,7 +93,7 @@ class MyWindow(QtWidgets.QMainWindow):
                 self.data_line_fsr.setData(self.FsrTimes, self.FsrData)
                 self.GlobalTimes.append(self.GlobalSW.secondsPassed())
                 self.UpdateViewBox()
-                if float(FlexData)>95:
+                if float(FlexData)>49:
                     t = time.localtime()
                     current_time = time.strftime("%H:%M:%S", t)
                     warn = '[' + str(current_time) + ']: ' + 'Abnormal temperature(%.2f °C)' %float(FlexData)
@@ -101,7 +101,7 @@ class MyWindow(QtWidgets.QMainWindow):
                 else:
                     self.CorrectData.append(1)
 
-                if  float(FsrData)>180:
+                if  float(FsrData)>0:
                     t = time.localtime()
                     current_time = time.strftime("%H:%M:%S", t)
                     warn = '[' + str(current_time) + ']: ' + 'Humidity(%.2f °C)' %float(FsrData)
