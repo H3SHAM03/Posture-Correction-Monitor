@@ -4,6 +4,7 @@ The Posture Corrector project aims to develop a wearable device that helps indiv
 
 ## Hardware Components
 The following hardware components were used in the project: 
+
 • Arduino uno microcontroller: It serves as the brain of the system, responsible for data acquisition, processing, and control. 
 
 • Force-sensing resistor (FSR) is a type of sensor that changes its resistance when pressure or force is applied to its surface. 
