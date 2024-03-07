@@ -5,15 +5,22 @@ The Posture Corrector project aims to develop a wearable device that helps indiv
 ## Hardware Components
 The following hardware components were used in the project: 
 • Arduino uno microcontroller: It serves as the brain of the system, responsible for data acquisition, processing, and control. 
+
 • Force-sensing resistor (FSR) is a type of sensor that changes its resistance when pressure or force is applied to its surface. 
+
 • Flex sensor is a type of bend sensor that changes its resistance as it is flexed or bent. 
+
 • 10k resistor. 
+
 • Breadboard: It provides a platform for connecting and prototyping the various components of the system. 
+
 • Jumper wires: They are used to establish connections between the Arduino, ultrasonic sensor, and breadboard. 
+
 • Buzzer: Connect one terminal of the buzzer to a digital output pin of the microcontroller, connect the other terminal of the buzzer to the ground. 
 
 ## Mechanism of Action
 • The Flex and FSR sensors are mounted at a suitable position on the patient’s body. 
+
 • The Arduino is connected to the sensors and programmed to read the pressure and degree of bending. 
 • It works by assessing the user's posture through real-time feedback, providing reminders to check and adjust posture. 
 • When the user bends his back more than the acceptable range, the flex sensor detects the bending degree, and the buzzer alarms the user to correct his posture. 
