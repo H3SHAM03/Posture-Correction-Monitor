@@ -22,11 +22,16 @@ The following hardware components were used in the project:
 • The Flex and FSR sensors are mounted at a suitable position on the patient’s body. 
 
 • The Arduino is connected to the sensors and programmed to read the pressure and degree of bending. 
+
 • It works by assessing the user's posture through real-time feedback, providing reminders to check and adjust posture. 
+
 • When the user bends his back more than the acceptable range, the flex sensor detects the bending degree, and the buzzer alarms the user to correct his posture. 
+
 • The program uses the FSR sensor to know the whole time the user wore the belt.   
 Integrate the buzzer control logic into the overall system design of the medical storage monitoring System. 
+
 • Connect the trigger conditions for the buzzer to relevant sensor data or system events. 
+
 • Ensure the buzzer's alerts and notifications align with the intended purpose and functionality of the project. 
 
 ## Prototype
