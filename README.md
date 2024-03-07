@@ -17,7 +17,7 @@ The following hardware components were used in the project:
 
 • Jumper wires: They are used to establish connections between the Arduino, ultrasonic sensor, and breadboard. 
 
-• Buzzer: Connect one terminal of the buzzer to a digital output pin of the microcontroller, connect the other terminal of the buzzer to the ground. 
+• Buzzer: Connect one terminal of the buzzer to a digital output pin of the microcontroller, and connect the other terminal of the buzzer to the ground. 
 
 ## Mechanism of Action
 • The Flex and FSR sensors are mounted at a suitable position on the patient’s body. 
